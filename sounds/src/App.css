@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+  
+/* h2 {
+  margin-bottom: 20px;
+} */
+ 
+a:visited { 
+  text-decoration: none; 
+  text-decoration-line: none;
+  color: black; 
+}
+
+.sidebar {
+  padding: 20px;
+  position: fixed;
+  width: 14%;
+  height: 98%;
+  background-color: grey;
+}
