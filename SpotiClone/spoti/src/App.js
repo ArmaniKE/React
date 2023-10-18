@@ -8,7 +8,7 @@ const Home = () => (
   <div className="home">
     {/* <h2 className="title">Spotify-Clone App</h2> */}
     <div className="sidebar">
-      <h3 style={{cursor: 'pointer'}}><FontAwesomeIcon icon={faMusic} /> Sounds</h3><br></br>
+      <h3 style={{cursor: 'pointer'}}><FontAwesomeIcon icon={faMusic} /> Sounds Arman Loh</h3><br></br>
       <h3><Link to="/" style={{textDecoration:"none"}}><FontAwesomeIcon icon={faHouse} /> Home</Link></h3>
       <Link to="/search" style={{textDecoration:"none"}}><h3><FontAwesomeIcon icon={faMagnifyingGlass} /> Search</h3></Link>  
       <Link to="/library" style={{textDecoration:"none"}}><h3><FontAwesomeIcon icon={faBook} /> Library</h3></Link>
